@@ -1,0 +1,19 @@
+COMANDOS GIT E GIT HUB
+
+git init . # Inicializa um repositório GIT no diretório que está sendo utilizado
+git status # Verifica quais alterações ocorreram nos arquivos e se estão na Staging Area ou não
+git add <nome do arquivo ou . (adiciona todos os arquivos)> # Sobe o arquivo para a Staging Area aguardando o commit
+git commit -m # Adiciona um comentário para o commit e grava a alteração
+git push <conection> <nome da Branch> # Sobe o commit para o GitHub
+git checkout -b <nome da branch " "> # Cria uma Branch
+git checkout <nome da branch> # Troca de branch que está sendo utilizada
+git branch -M <novo nome da branch> # Altera o nome da Branch
+git murge <nome da branch que está atualizada> (Deve estar utilizando a desatualizada) # Atualiza a Branch com os dados de outra Branch
+git clone <link do repositório> # Baixa uma cópia do repositório do GitHub
+git pull <nome da conection> <nome da branch> # Atualiza o diretório local
+
+COMANDOS GIT LFS
+
+git lfs install # Instala o LFS na máquina
+git lfs track <nome do arquivo> (Arquivo deve estar dentro da pasta) # O arquivo .gitattributes será criado e irá definir quais arquivos devem ser rastreados pelo Git LFS e como eles devem ser tratados
+git add .gitattributes <nome do arquivo que foi feito o tracking> # Associa o arquivo de tracking à seus atributos
