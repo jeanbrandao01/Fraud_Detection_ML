@@ -11,6 +11,7 @@ git branch -M <novo nome da branch> # Altera o nome da Branch
 git merge <nome da branch que está atualizada> (Deve estar utilizando a desatualizada) # Atualiza a Branch com os dados de outra Branch
 git clone <link do repositório> # Baixa uma cópia do repositório do GitHub
 git pull <nome da conection> <nome da branch> # Atualiza o diretório local
+git reset --hard <nome da connection>/<nome da branch> # Reseta o diretório local para o ultimo commit do Github (reverte alterações)
 
 COMANDOS GIT LFS
 
