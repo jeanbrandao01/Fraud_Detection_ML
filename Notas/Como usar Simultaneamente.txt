@@ -1,0 +1,20 @@
+Crie um repositório no GitHub que contenha o arquivo deseja colaborar.
+Cada pessoa que deseja colaborar deve fazer um clone desse repositório para sua máquina local.
+
+Trabalhando em Branches Secundárias:
+
+Cada pessoa deve criar uma branch secundária com um nome descritivo, por exemplo, dev_jean ou dev_giovanni. Poderá ser feito com o comando:
+git checkout -b dev_jean
+Faça as edições necessárias no arquivo.
+
+Use os comandos do Git para adicionar, fazer commit e enviar suas alterações para sua branch secundária.
+git add <seu arquivo>
+git commit -m "Descrição das alterações"
+git push origin <nome da branch>
+
+Pull Request e Revisão:
+No GitHub, vá para o repositório original e crie um Pull Request (PR) da sua branch secundária (dev_jean, por exemplo) para a branch de desenvolvimento (dev). Certifique-se de descrever as alterações que você fez no arquivo.
+
+Outros colaboradores podem revisar o arquivo e fazer comentários, se necessário.
+
+Quando todos concordarem que o arquivo está correto e as revisões forem concluídas, poderá realizar o merge do arquivo na branch de desenvolvimento (dev).

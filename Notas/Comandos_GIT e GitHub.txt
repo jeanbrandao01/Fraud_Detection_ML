@@ -11,10 +11,7 @@ git branch -M <novo nome da branch> # Altera o nome da Branch
 git merge <nome da branch que está atualizada> (Deve estar utilizando a desatualizada) # Atualiza a Branch com os dados de outra Branch
 git clone <link do repositório> # Baixa uma cópia do repositório do GitHub
 git pull <nome da conection> <nome da branch> # Atualiza o diretório local
-git reset --hard <nome da connection>/<nome da branch> # Reseta o diretório local para o ultimo commit do Github (reverte alterações)
-
-COMANDOS GIT LFS
-
-git lfs install # Instala o LFS na máquina
-git lfs track <nome do arquivo> (Arquivo deve estar dentro da pasta) # O arquivo .gitattributes será criado e irá definir quais arquivos devem ser rastreados pelo Git LFS e como eles devem ser tratados
-git add .gitattributes <nome do arquivo que foi feito o tracking> # Associa o arquivo de tracking à seus atributos
+git reset --hard <nome da connection> + <nome da branch> # Reseta o diretório local para o ultimo commit do Github (reverte alterações)
+git push origin --delete <nome da branch> # Deleta a branch do GitHub
+git branch -d nome-da-branch # Deleta parte da branch do Git
+git branch -D nome-da-branch # Deleta a branch forçadamente do Git

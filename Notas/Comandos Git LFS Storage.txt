@@ -1,0 +1,5 @@
+COMANDOS GIT LFS
+
+git lfs install # Instala o LFS na máquina
+git lfs track <nome do arquivo> (Arquivo deve estar dentro da pasta) # O arquivo .gitattributes será criado e irá definir quais arquivos devem ser rastreados pelo Git LFS e como eles devem ser tratados
+git add .gitattributes <nome do arquivo que foi feito o tracking> # Associa o arquivo de tracking à seus atributos
